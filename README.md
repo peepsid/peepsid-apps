@@ -1,6 +1,6 @@
-# ScatterApps
+# PeepsIDApps
 
-## Check out https://get-scatter.com/Apps to see the link of apps.
+## Check out https://iamfreedom.us to see the link of apps.
 
 ### Adding new apps
 
@@ -10,8 +10,8 @@
 
 ```
 {
-  "applink":"",      // This is the identifier you use when connecting to Scatter
-                     // For ScatterJS it is what you pass into ScatterJS.scatter.connect(applink)
+  "applink":"",      // This is the identifier you use when connecting to PeepsID
+                     // For PeepsIDJS it is what you pass into PeepsIDJS.scatter.connect(applink)
                      // It should be only alphanumerical with no special characters or spaces excluding _ - and .
   "name":"",         // This is the name of your application, it should be in Title Case
   "type":"",         // A small tag showing what type of application this is
@@ -40,7 +40,7 @@ We are now enforcing strict categories. Please make sure that your app is catego
 - Wallet
 
 #### Requesting types
-To request the addition of types into Scatter you need to PR both this README as well as the `types.json` file in the root path of this repository.
+To request the addition of types into PeepsID you need to PR both this README as well as the `types.json` file in the root path of this repository.
 
 ## Token property
 The `token` property allows you to pin an app to a specific token. 
@@ -50,10 +50,10 @@ The structure for the token is:
 ```
 **Token properties must be all lowercase!** 
 
-For example, the Everipedia token is:
+For example, the dSocial token is:
 ```
-eos:everipediaiq:iq:aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
+arisen:dsocial:like:aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906
 ```
 
 ## Important note about the applink key: 
-If you are a web app, you will need to use your FQDN ( ie. get-scatter.com ) and not what you are passing into the connection.
+If you are a web app, you will need to use your FQDN ( ie.  peepsid.com ) and not what you are passing into the connection.
